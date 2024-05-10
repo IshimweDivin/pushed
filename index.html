@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+             background-image: url(images/portfolio-7.jpg);
+             background-position-x: center;
+             background-attachment: fixed;
+        
+            text-align: center;
+            
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #455; /* Green button color */
+            color: #fff; /* Button text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 45vh;
+           
+
+        }
+        .text p{
+            font-size: 40px;
+            color: black;
+            font-weight: 500;
+            margin-top: 12vh;
+        
+        }
+
+        button:hover {
+            background-color: #45a049;
+         } /* Darker green color on hover*/
+
+    </style>
+</head>
+<body>
+    <div class="text">
+    <p>Welcome To Library Management System</p>
+
+
+<button onclick="direct()">Click Here to Continue!</button>
+</div>
+
+
+<script>
+    function direct() {
+        window.location.href=('count.html');
+    
+    }
+</script>
+
+</body>
+</html>
